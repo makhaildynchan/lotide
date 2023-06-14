@@ -1,3 +1,5 @@
+const assertEqual = require("./assertEqual");
+
 const bestTVShowsByGenre = {
   sciFi: "The Expanse",
   comedy: "Brooklyn Nine-Nine",
@@ -15,3 +17,6 @@ const findKeyByValue = function(object, value) {
 };
 
 findKeyByValue(bestTVShowsByGenre, "The Wires");
+assertEqual(findKeyByValue(bestTVShowsByGenre, "The Wire"), "drama");
+assertEqual(findKeyByValue(bestTVShowsByGenre, "That '70s Show"), undefined);
+module.exports = findKeyByValue;

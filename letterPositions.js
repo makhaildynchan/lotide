@@ -1,3 +1,4 @@
+//takes in a string and returns all indices of letter positions in the string.
 const assertArraysEqual = require("./assertArraysEqual");
 
 const letterPositions = function(sentence) {

@@ -33,3 +33,5 @@ console.log(eqObjects(shirtObject, anotherShirtObject));
 
 const longSleeveShirtObject = { size: "medium", color: "red", sleeveLength: "long" };
 console.log(eqObjects(shirtObject, longSleeveShirtObject));
+
+module.exports = eqObjects;

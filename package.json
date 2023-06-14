@@ -1,15 +1,19 @@
 {
   "name": "@makhaildynchan/lotide",
-  "version": "1.0.0",
-  "description": "",
-  "main": "assertArraysEqual.js",
+  "version": "1.0.1",
+  "description": "Lotide Project 1 - Lighthouse Labs Web Development Bootcamp",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
     "test": "mocha"
   },
-  "author": "",
+  "repository": {
+		"type": "git",
+		"url": "git+https://github.com/makhaildynchan/lotide"
+	},
+  "author": "Ma Khaildyn Chan",
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.3.7",

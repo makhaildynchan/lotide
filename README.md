@@ -13,6 +13,7 @@ This project was created and published by me as part of my learnings at Lighthou
 **Install it:**
 
 `npm install @makhaildynchan/lotide`
+`npm install @makhaildynchan/lotide`
 
 **Require it:**
 
@@ -23,6 +24,7 @@ This project was created and published by me as part of my learnings at Lighthou
 `const results = _.tail([1, 2, 3]) // => [2, 3]`
 
 ## Documentation
+### Tests
 ### Tests
 The following functions are currently implemented:
 

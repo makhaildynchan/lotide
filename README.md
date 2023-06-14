@@ -36,7 +36,7 @@ The following functions are currently implemented:
 * `eqObjects`: takes in 2 objects and return true if they are equal and false otherwise.
 * `findKey`: takes in an object and callback and returns the first key that meets the criteria specified in callback.
 * `flatten`: takes in an array that contains elements including nested array of elements and returns a flattened version of the array.
-* `head`: takes in an array that contains elements including nested array of elements and returns a flattened version of the array.
+* `head`: returns the first element of input array.
 * `letterPositions`: takes in a string and returns all indices of letter positions in the string.
 * `map`: takes in an array and a callback and returns a new array based on the results of the callback on each item in the array.
 * `middle`: takes in an array and returns middle most element of the array.
